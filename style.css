@@ -1,0 +1,130 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f8fcfa;
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+/* MOBILE VIEW */
+
+#container {
+	display: flex;
+	flex-direction: column;
+}
+
+#container > * {
+	flex: 1;
+}
+
+.error {
+	font: bold 60px "Segoe UI";
+	color: #2e4050;
+	margin-bottom: 16px;
+}
+
+.error1 {
+	display: none;
+}
+
+.error-info {
+	font: 15px "Segoe UI";
+	color: #2e4050;
+}
+
+.try {
+	display: block;
+	text-align: center;
+	margin-bottom: 36px;
+}
+
+.more-txt {
+	display: none;
+}
+
+.last {
+	display: flex;
+	flex-direction: column;
+}
+
+.btn {
+	background-color: #d66265;
+	color: #fff;
+	font: bold 18px "Segoe UI";
+	border: none;
+	padding: 5px 47px;
+	border-radius: 50px;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn1 {
+	display: none;
+}
+
+/* END OF MOBILE VIEW */
+
+/* DESKTOP VIEW */
+
+@media only screen and (min-width: 1025px) {
+	#container {
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		width: 100%;
+	}
+
+	#container > * {
+		flex: 1;
+	}
+
+	.error,
+	.try {
+		display: none;
+	}
+
+	.error1 {
+		display: block;
+		font: bold 150px "Segoe UI";
+	}
+
+	img {
+		width: 298px;
+		height: 459px;
+		margin-left: 172px;
+	}
+
+	.more-txt {
+		display: inline;
+	}
+
+	.error-info {
+		font: bold 28px "Segoe UI";
+		margin-left: 152px;
+	}
+
+	.btn {
+		display: none;
+	}
+
+	.btn1 {
+		display: initial;
+		background-color: #d66265;
+		color: #fff;
+		font: bold 28px "Segoe UI";
+		border: none;
+		padding: 10px 77px;
+		border-radius: 50px;
+		margin-top: 51px;
+		outline: none;
+		cursor: pointer;
+	}
+}
