@@ -94,13 +94,6 @@ body {
     margin: 0 0 0 17.2rem;
   }
 
-  .left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .err__title {
     font-size: 15rem;
   }
