@@ -81,48 +81,41 @@ body {
     width: 100%;
   }
 
-  #container > * {
-    flex: 1;
-  }
-
-  /* .error,
-	.try {
-		display: none;
-	} */
-
-  /* .error1 {
-    display: block;
-    font: bold 150px "Segoe UI";
-  } */
-
   img {
-    width: 298px;
-    height: 459px;
-    margin-left: 172px;
+    width: 29.8rem;
+    height: 45.9rem;
+    margin: 0 0 0 17.2rem;
   }
 
-  /* .more-txt {
-		display: inline;
-	} */
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-  .error-info {
-    font: bold 28px "Segoe UI";
-    margin-left: 152px;
+  .err__title {
+    font-size: 15rem;
+  }
+
+  .err__info {
+    font: bold 2rem "Segoe UI";
+    margin-top: 3rem;
+  }
+
+  .try {
+    margin-bottom: 2rem;
   }
 
   .btn {
-    display: none;
-  }
-
-  .btn1 {
     display: initial;
     background-color: #d66265;
     color: #fff;
-    font: bold 28px "Segoe UI";
+    font: bold 2.8rem "Segoe UI";
     border: none;
-    padding: 10px 77px;
-    border-radius: 50px;
-    margin-top: 51px;
+    padding: 1rem 7.7rem;
+    border-radius: 5rem;
+    margin-top: 5.1rem;
     outline: none;
     cursor: pointer;
   }
