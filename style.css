@@ -34,6 +34,13 @@ body {
   margin-top: 0.5rem;
 }
 
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .err {
   font: bold 6rem "Segoe UI";
   color: #2e4050;
